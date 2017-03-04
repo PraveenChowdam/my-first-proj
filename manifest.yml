@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test-mgmt-ierp
+  host: test-mgmt-ierp
+  disk_quota: 1024M
